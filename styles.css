@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container {
+    height: 500px;
+    background-color: #1F2937;
+    padding: 50px;
+}
