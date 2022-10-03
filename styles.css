@@ -81,9 +81,15 @@ button {
     border-radius: 10px;
     border: none;
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 .middle-container > span {
@@ -148,4 +154,51 @@ button {
     font-style: normal;
     text-align: right;
     font-size: 28px;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.call-to-action-box {
+    display: flex;
+    height: 150px;
+    width: 1000px;
+    border: none;
+    border-radius: 15px; 
+    background-color: #3882F6;
+    padding: 20px 75px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call-to-action-box p:nth-of-type(2) {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+    padding-top: 3px;
+}
+
+.left {
+    margin-right: 125px;
+}
+
+.call-to-action-box > button {
+    border: 3px solid white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+    font-size: 18px;
+    color: #E5E7EB
 }
