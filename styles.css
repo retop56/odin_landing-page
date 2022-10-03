@@ -85,3 +85,45 @@ button {
     font-size: 18px;
     font-weight: 500;
 }
+
+.middle-container > span {
+    font-size: 36px;
+    font-weight: 900;
+    align-self: center;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 75px 0 75px;
+    flex-direction: column;
+}
+
+.boxes-container {
+    display: flex;
+    margin-top: 30px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-wrapper > p {
+    margin-top: 10px;
+    width: 200px;
+    font-size: 18px;
+}
